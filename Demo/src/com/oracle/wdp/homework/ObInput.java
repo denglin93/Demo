@@ -12,6 +12,7 @@ public class ObInput {
 		try {
 			ois = new ObjectInputStream(new FileInputStream("object.dat"));
 			Student student = (Student) ois.readObject();
+			System.out.println(student.getSchoo().getName());
 			System.out.println(student.toString());
 		} catch (IOException e) {
 			e.printStackTrace();

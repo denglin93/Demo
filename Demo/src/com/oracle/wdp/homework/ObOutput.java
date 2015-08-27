@@ -13,6 +13,9 @@ public class ObOutput {
 		try {
 			oos = new ObjectOutputStream(new FileOutputStream("object.dat"));
 			Student student = new Student("思元", 6);
+			School s = new School();
+			s.setName("清华大学");
+			student.setSchoo(s);
 			oos.writeObject(student);
 		} catch (IOException e) {
 			e.printStackTrace();

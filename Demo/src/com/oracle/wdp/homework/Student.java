@@ -3,9 +3,11 @@ package com.oracle.wdp.homework;
 import java.io.Serializable;
 
 public class Student implements Serializable{
+	private static final long serialVersionUID = 1L;
 	private String name;
 	private int age;
-	
+	private transient School schoo;
+
 	public Student(String name, int age) {
 		
 		this.name = name;
@@ -26,5 +28,11 @@ public class Student implements Serializable{
 	}
 	public void setAge(int age) {
 		this.age = age;
+	}
+	public School getSchoo() {
+		return schoo;
+	}
+	public void setSchoo(School schoo) {
+		this.schoo = schoo;
 	}
 }
