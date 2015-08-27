@@ -17,7 +17,7 @@ public class FileWriterDemo {
 			if(writer!=null){
 				try{
 					writer.flush();
-					//writer.close();
+					writer.close();
 				}catch(Exception e){
 					e.printStackTrace();
 				}
