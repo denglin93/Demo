@@ -1,5 +1,7 @@
 package com.oracle.wdp.homework;
-
+/*
+ * 将文件中的对象输出到程序中
+ * */
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.ObjectInputStream;

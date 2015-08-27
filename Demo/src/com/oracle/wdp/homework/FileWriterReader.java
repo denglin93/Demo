@@ -4,7 +4,7 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 
-public class Demo {
+public class FileWriterReader {
 	public static void main(String[] args){
 		FileWriter fw = null;
 		FileReader fr = null;

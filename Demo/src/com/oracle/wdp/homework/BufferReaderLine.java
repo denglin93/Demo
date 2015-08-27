@@ -5,7 +5,7 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class Demo5 {
+public class BufferReaderLine {
 	public static void main(String[] args) throws InterruptedException {
 		BufferedReader br = null;
 		try {

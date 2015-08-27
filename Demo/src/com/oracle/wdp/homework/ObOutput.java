@@ -3,8 +3,11 @@ package com.oracle.wdp.homework;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.ObjectOutputStream;
-
-public class Ob {
+/*
+ * 将对象写入到文件中
+ * 
+ * */
+public class ObOutput {
 	public static void main(String[] args) {
 		ObjectOutputStream oos = null;
 		try {
